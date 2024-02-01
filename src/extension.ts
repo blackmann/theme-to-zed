@@ -107,14 +107,14 @@ function checkBin(bin: string) {
 	} catch (err) {
 		vscode.window
 			.showErrorMessage(
-				'Theme importer not found. Please install it with "brew install blackmann/zed-theme-importer".',
+				'Theme importer not found. Please install it with "brew install blackmann/brew/zed-theme-importer".',
 				"Install",
 				"Cancel",
 			)
 			.then((value) => {
 				if (value === "Install") {
 					const terminal = vscode.window.createTerminal();
-					terminal.sendText("brew install blackmann/zed-theme-importer");
+					terminal.sendText("brew install blackmann/brew/zed-theme-importer");
 					terminal.show();
 				}
 			});
