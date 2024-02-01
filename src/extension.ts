@@ -36,7 +36,11 @@ function exportTheme() {
 				const themePath = `${extPath}/${file.name}`;
 				const { name } = JSON.parse(fs.readFileSync(themePath, "utf8"));
 
-				themes.push({ name, path: themePath, filename: file.name });
+				themes.push({
+					name: name || it.packageJSON?.displayName,
+					path: themePath,
+					filename: file.name,
+				});
 			}
 		} catch (err) {}
 	}
