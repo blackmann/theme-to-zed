@@ -4,6 +4,8 @@ Export VSCode themes to Zed.
 
 ⚠️ Zed works for just Mac at the moment. So this extension is only useful for Mac users.
 
+Marketplace link: [degreat.theme-to-zed](https://marketplace.visualstudio.com/items?itemName=degreat.theme-to-zed)
+
 ## How to use
 
 After installing from the Marketplace, run the command `Export Theme to Zed` from the command palette.
