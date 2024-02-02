@@ -9,12 +9,10 @@ interface ThemeDefinition {
 }
 
 export function activate(context: vscode.ExtensionContext) {
-	const disposable = vscode.commands.registerCommand(
-		"theme-to-zed.export",
-		exportTheme,
+	context.subscriptions.push(
+		vscode.commands.registerCommand("theme-to-zed.export", exportTheme),
+		vscode.commands.registerCommand("theme-to-zed.update", updateThemeImporter),
 	);
-
-	context.subscriptions.push(disposable);
 }
 
 function exportTheme() {
@@ -113,9 +111,7 @@ function checkBin(bin: string) {
 			)
 			.then((value) => {
 				if (value === "Install") {
-					const terminal = vscode.window.createTerminal();
-					terminal.sendText("brew install blackmann/brew/zed-theme-importer -v");
-					terminal.show();
+					updateThemeImporter();
 				}
 			});
 	}
@@ -147,6 +143,14 @@ function clean(output: string) {
 	}
 
 	return cleaned.join("\n");
+}
+
+function updateThemeImporter() {
+	const terminal = vscode.window.createTerminal();
+	terminal.sendText(
+		"brew update && brew install blackmann/brew/zed-theme-importer -v",
+	);
+	terminal.show();
 }
 
 // This method is called when your extension is deactivated

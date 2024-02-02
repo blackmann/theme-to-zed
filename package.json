@@ -2,7 +2,7 @@
   "name": "theme-to-zed",
   "displayName": "Theme to Zed",
   "description": "Export VSCode themes to Zed",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "degreat",
   "icon": "assets/vz.png",
   "repository": "https://github.com/blackmann/theme-to-zed.git",
@@ -19,6 +19,10 @@
       {
         "command": "theme-to-zed.export",
         "title": "Export Theme to Zed"
+      },
+      {
+        "command": "theme-to-zed.update",
+        "title": "Update Zed theme_importer"
       }
     ],
     "configuration": {

@@ -27,3 +27,5 @@ If you're on an Intel Mac, you may need to supply the path to `theme_importer` i
 ⚠️ Note that, not all themes may work properly. The `theme_importer` is still under development. You may need to update periodically.
 
 🌵 The installation of `theme_importer` will only happen once.
+
+🏄🏽 Run `Update Zed theme_importer` periodically to update the binary of `theme_importer` to latest.
