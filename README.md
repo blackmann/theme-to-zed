@@ -6,6 +6,9 @@ Export VSCode themes to Zed.
 
 Marketplace link: [degreat.theme-to-zed](https://marketplace.visualstudio.com/items?itemName=degreat.theme-to-zed)
 
+![Screenshot](assets/zed-with-monokai.png)
+<figcaption>Zed with Monokai exported from VSCode</figcaption>
+
 ## How to use
 
 After installing from the Marketplace, run the command `Export Theme to Zed` from the command palette.

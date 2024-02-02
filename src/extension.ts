@@ -114,7 +114,7 @@ function checkBin(bin: string) {
 			.then((value) => {
 				if (value === "Install") {
 					const terminal = vscode.window.createTerminal();
-					terminal.sendText("brew install blackmann/brew/zed-theme-importer");
+					terminal.sendText("brew install blackmann/brew/zed-theme-importer -v");
 					terminal.show();
 				}
 			});

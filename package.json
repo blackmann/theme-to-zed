@@ -2,7 +2,7 @@
   "name": "theme-to-zed",
   "displayName": "Theme to Zed",
   "description": "Export VSCode themes to Zed",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "degreat",
   "icon": "assets/vz.png",
   "repository": "https://github.com/blackmann/theme-to-zed.git",
