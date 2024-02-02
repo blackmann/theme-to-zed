@@ -11,7 +11,7 @@ Marketplace link: [degreat.theme-to-zed](https://marketplace.visualstudio.com/it
 
 ## How to use
 
-After installing from the Marketplace, run the command `Export Theme to Zed` from the command palette.
+After installing from the Marketplace, run the command `Export Theme to Zed` from the command palette. You may be asked to install `theme_importer` if it's not already installed. This process may take a while.
 
 Restart Zed (Preview) to see the theme.
 

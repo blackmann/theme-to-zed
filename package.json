@@ -2,12 +2,12 @@
   "name": "theme-to-zed",
   "displayName": "Theme to Zed",
   "description": "Export VSCode themes to Zed",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "degreat",
   "icon": "assets/vz.png",
   "repository": "https://github.com/blackmann/theme-to-zed.git",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Other"
@@ -48,7 +48,7 @@
     "@biomejs/biome": "^1.5.3",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
-    "@types/vscode": "^1.85.0",
+    "@types/vscode": "^1.70.0",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "@vscode/test-cli": "^0.0.4",
